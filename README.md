@@ -18,8 +18,8 @@ TODO: what worked / what didn't work
 
 ## Authors
 
-TODO: list of authors
+Gia Kim, Sathvi Korandla
 
 ## Acknowledgments
 
-TODO: cite any tutorials followed here
+https://heartbeat.fritz.ai/how-to-build-a-xylophone-app-with-audio-api-react-native-and-expo-7d6754a0603c
