@@ -1,4 +1,6 @@
-import { StyleSheet, Text, View, TouchableOpacity } from 'react-native'
+import { StatusBar } from 'expo-status-bar';
+import React from 'react';
+import { StyleSheet, Text, View, TouchableOpacity} from 'react-native';
 
 import {
 	NoteOne,
@@ -21,8 +23,8 @@ const xyloSounds = {
 }
 
 export default function App() {
-	return (
-		<View style={styles.container}>
+  return (
+    <View style={styles.container}>
 			<View style={styles.buttonContainer}>
 				<TouchableOpacity
 					style={[styles.button, { backgroundColor: NoteOne }]}
@@ -80,9 +82,9 @@ export default function App() {
 				</TouchableOpacity>
 			</View>
 		</View>
-		
-	)
+  );
 }
+
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
