@@ -83,3 +83,24 @@ export default function App() {
 		
 	)
 }
+const styles = StyleSheet.create({
+	container: {
+		flex: 1,
+		backgroundColor: '#fff',
+		borderRadius: 25 + 'px',
+		marginTop: 50
+	},
+	buttonContainer: {
+		height: 40,
+		margin: 5
+	},
+	button: {
+		flex: 1,
+		alignItems: 'center',
+		justifyContent: 'center'
+	},
+	buttonText: {
+		color: '#fff',
+		fontSize: 18
+	}
+})
