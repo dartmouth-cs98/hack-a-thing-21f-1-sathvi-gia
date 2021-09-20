@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
 	container: {
 		flex: 1,
 		backgroundColor: '#fff',
-		borderRadius: 25 + 'px',
+		borderRadius: 25,
 		marginTop: 50
 	},
 	buttonContainer: {
