@@ -7,6 +7,7 @@ a xylophone app with Audio API, React Native, and Expo
 
 Include some screenshots.
 [How?](https://help.github.com/articles/about-readmes/#relative-links-and-image-paths-in-readme-files)
+[Screenshot](screenshot.PNG)
 
 ## Who Did What?
 
