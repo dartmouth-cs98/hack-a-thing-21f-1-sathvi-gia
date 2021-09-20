@@ -5,7 +5,7 @@
 
 a xylophone app with Audio API, React Native, and Expo
 
-![](/screenshot.png)
+![](screenshot.PNG)
 
 ## Who Did What?
 
