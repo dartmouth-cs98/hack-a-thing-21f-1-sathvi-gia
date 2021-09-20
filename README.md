@@ -15,7 +15,7 @@ Gia did the styling, put in the audio files, and added functionality to play the
 
 ## What you learned
 
-How to use Expo and React Native! We had some merging issues but figured it out and it was nice practice that helped us get back into the flow of using git.
+How to use Expo and React Native! We had some merging issues but we figured it out and it was a nice practice that helped us get back into the flow of using git.
 
 ## Authors
 
