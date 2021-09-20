@@ -1,6 +1,6 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, TouchableOpacity} from 'react-native';
+import { Audio } from 'expo-av';
 
 import {
 	NoteOne,
@@ -23,6 +23,29 @@ const xyloSounds = {
 }
 
 export default function App() {
+	//create a new sound object, bc every time we play sound --> have to cre4ate new obj
+	handlePlaySound = async note => {
+		const soundObject = new Audio.Sound()
+
+		try {
+			let source = xyloSounds[note]
+			// let source = require('./assets/note1.wav')
+			await soundObject.loadAsync(source)
+			await soundObject
+				.playAsync()
+				.then(async playbackStatus => {
+					setTimeout(() => {
+						soundObject.unloadAsync()
+					}, playbackStatus.playableDurationMillis)
+				})
+				.catch(error => {
+					console.log(error)
+				})
+		} catch (error) {
+			console.log(error)
+		}
+	}
+
   return (
     <View style={styles.container}>
 			<View style={styles.buttonContainer}>
