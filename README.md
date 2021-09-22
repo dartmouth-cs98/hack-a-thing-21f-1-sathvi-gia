@@ -17,7 +17,7 @@ Gia did the styling, put in the audio files, and added functionality to play the
 
 ## What you learned
 
-We learned how to use Expo and React Native and that the expo-av package provides the functionality to play audio files! We had some merging issues with git flow but we fixed it (shout out to git rebase). Figuring out how to fix the problems was a nice practice that helped us get back into the flow of using git.
+We learned how to use Expo and React Native and also learned that that the expo-av package provides the functionality to play audio files! We had some merging issues with git flow but we fixed it (shout out to git rebase). Figuring out how to fix the problem was a nice practice that helped us get back into the flow of using git. From this hack, we see that we can definitely do something music-related or sound-related on a phone screen, which could be cool for making something with an interactive, instrument-like interface (compared to something similar with buttons on a computer screen).
 
 ## Authors
 
