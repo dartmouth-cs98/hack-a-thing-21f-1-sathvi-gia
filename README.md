@@ -1,13 +1,15 @@
 # Hack Technology / Project Attempted
 
+React Native and Playing Audio on a mobile app
+
 
 ## What you built? 
 
-a xylophone app with Audio API, React Native, and Expo
+We built a xylophone iOS app with React Native, Expo, and the Audio class from the 'expo-av' package.
 
-Include some screenshots.
-[How?](https://help.github.com/articles/about-readmes/#relative-links-and-image-paths-in-readme-files)
-[Screenshot](screenshot.PNG)
+Here is a screenshot of what the app looks like:
+
+![](screenshot.PNG)
 
 ## Who Did What?
 
@@ -16,7 +18,7 @@ Gia did the styling, put in the audio files, and added functionality to play the
 
 ## What you learned
 
-How to use Expo and React Native! We had some merging issues but we figured it out and it was a nice practice that helped us get back into the flow of using git.
+We learned how to use Expo and React Native and that the expo-av package provides the functionality to play audio files! We had some merging issues with git flow but we fixed it (shout out to git rebase). Figuring out how to fix the problems was a nice practice that helped us get back into the flow of using git.
 
 ## Authors
 
@@ -25,3 +27,5 @@ Gia Kim, Sathvi Korandla
 ## Acknowledgments
 
 https://heartbeat.fritz.ai/how-to-build-a-xylophone-app-with-audio-api-react-native-and-expo-7d6754a0603c
+
+https://docs.expo.dev/versions/v42.0.0/sdk/audio/
