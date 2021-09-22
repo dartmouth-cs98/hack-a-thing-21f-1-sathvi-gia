@@ -2,7 +2,6 @@
 
 React Native and Playing Audio on a mobile app
 
-
 ## What you built? 
 
 We built a xylophone iOS app with React Native, Expo, and the Audio class from the 'expo-av' package.
