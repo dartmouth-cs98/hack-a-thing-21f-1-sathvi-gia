@@ -12,6 +12,8 @@ import {
 	NoteSeven
 } from './constants/Colors'
 
+
+// seven different sound files, one for each "button"/xylophone bar
 const xyloSounds = {
 	one: require('./assets/note1.wav'),
 	two: require('./assets/note2.wav'),
@@ -23,13 +25,13 @@ const xyloSounds = {
 }
 
 export default function App() {
-	//create a new sound object, bc every time we play sound --> have to cre4ate new obj
+	// function that will play the correct note based on which button was pressed
 	handlePlaySound = async note => {
+		// create a new sound object, bc every time we play sound --> have to create a new object
 		const soundObject = new Audio.Sound()
 
 		try {
 			let source = xyloSounds[note]
-			// let source = require('./assets/note1.wav')
 			await soundObject.loadAsync(source)
 			await soundObject
 				.playAsync()
